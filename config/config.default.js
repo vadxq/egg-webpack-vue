@@ -29,7 +29,7 @@ module.exports = appInfo => {
   // development static
   config.static = {
     prefix: '/',
-    dir: path.join(appInfo.baseDir, 'client/public'),
+    dir: path.join(appInfo.baseDir, 'client/.dist'),
   }
   // add your user config here
   const userConfig = {
