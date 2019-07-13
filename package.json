@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:server": "npx egg-bin dev",
-    "start": "npx egg-scripts start --port 8080 --daemon --title=egg-server-LUCKYIOTWAP",
-    "stop": "npx egg-scripts stop --title=egg-server-LUCKYIOTWAP"
+    "start": "npx egg-scripts start --port 8080 --daemon --title=egg-server-vadxq",
+    "stop": "npx egg-scripts stop --title=egg-server-vadxq"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/vadxq/egg-webpack-vue#readme",
   "dependencies": {
-    "egg": "^2.22.2"
+    "egg": "^2.22.2",
+    "egg-view-static": "^1.0.0"
   },
   "devDependencies": {
     "egg-bin": "^4.13.0",
