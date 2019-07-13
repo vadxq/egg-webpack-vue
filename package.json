@@ -1,0 +1,33 @@
+{
+  "name": "egg-webpack-vue",
+  "version": "1.0.0",
+  "description": "egg webpack vue",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "npx egg-bin dev",
+    "start": "npx egg-scripts start --port 8080 --daemon --title=egg-server-LUCKYIOTWAP",
+    "stop": "npx egg-scripts stop --title=egg-server-LUCKYIOTWAP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/egg-webpack-vue.git"
+  },
+  "keywords": [
+    "egg",
+    "webpack",
+    "vue"
+  ],
+  "author": "vadxq",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vadxq/egg-webpack-vue/issues"
+  },
+  "homepage": "https://github.com/vadxq/egg-webpack-vue#readme",
+  "dependencies": {
+    "egg": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0",
+    "egg-scripts": "^2.11.0"
+  }
+}
