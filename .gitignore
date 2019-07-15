@@ -65,3 +65,6 @@ typings/
 
 # dev egg
 run/
+
+# react dist
+dist/

@@ -1,6 +1,7 @@
 'use strict';
 
 const path = require('path');
+const ENV = process.env.NODE_ENV
 
 /**
  * @param {Egg.EggAppInfo} appInfo app info
@@ -29,7 +30,10 @@ module.exports = appInfo => {
   // development static
   config.static = {
     prefix: '/',
-    dir: path.join(appInfo.baseDir, 'client/.dist'),
+    // dir: path.join(appInfo.baseDir, 'client/.dist'),
+    dir: ENV === 'reactevelopment' // 输出路径
+    ? path.join(__dirname, '../react/dist')
+    : path.join(__dirname, '../client/.dist'),
   }
   // add your user config here
   const userConfig = {
